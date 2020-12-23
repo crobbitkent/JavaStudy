@@ -2,39 +2,44 @@ package d1;
 
 import java.util.Scanner;
 
-public class BMI {
-
-	
+public class BMI
+{
 	public static void main(String[] args)
 	{
 		Scanner scanner = new Scanner(System.in);
 		
-		// 신장 입력
-		System.out.println("신장을 입력하세요. (cm)");
+		// 키를 입력
+		System.out.println("본인의 키를 입력하세요. (cm)");
 		double height = scanner.nextDouble() * 0.01;
-		// 무게 입력
-		System.out.println("체중을 입력하세요. (kg)");
+		
+		// 몸무게를 입력
+		System.out.println("본인의 몸무게를 입력하세요. (kg)");
 		double weight = scanner.nextDouble();
-			
+		
+		// bmi 수치 변수
 		double result = weight / (height * height);
+		
+		// 결과 문자 변수
+		String resultString = "";
 		
 		if (18.5 >= result)
 		{
-			System.out.println("저체중입니다.");
+			resultString = "저체중입니다.";
 		}
 		else if (23.0 >= result)
 		{
-			System.out.println("정상입니다.");
+			resultString = "보통입니다.";
 		}
 		else if (25 >= result)
 		{
-			System.out.println("과체중입니다.");
+			resultString = "과다체중입니다.";
 		}
 		else
 		{
-			System.out.println("비만입니다.");
+			resultString = "비만입니다.";
 		}		
 		
-		System.out.println("BMI 지수 = " + result);
+		System.out.println("당신은 " + resultString);	
+		System.out.println("BMI 수치 = " + result);		
 	}
 }
