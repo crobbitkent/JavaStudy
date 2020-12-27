@@ -13,7 +13,7 @@ public class LeapYear {
 			if (0 == year % 100) {
 				// 평년
 				isLeapYear = false;
-
+				
 				// 평년이지만 400으로 나뉘어지면 윤년
 				if (0 == year % 400) {
 					// 윤년
@@ -29,7 +29,7 @@ public class LeapYear {
 			System.out.println("윤년입니다.");
 		} else {
 			System.out.println("평년입니다.");
-		}
+		}	
 
 		/*
 		 * if(year % 400 == 0){ 
