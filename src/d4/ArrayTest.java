@@ -6,7 +6,7 @@ package d4;
 public class ArrayTest {
 	public static void main(String[] args) {
 		double[] data = {38,38,35,34,41,36,35,33,37,40};
-		
+
 		// 1. 루프를 돌아서 내용물 출력
 		int length = data.length;
 		
