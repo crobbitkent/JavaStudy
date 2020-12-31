@@ -1,0 +1,8 @@
+package d8_2;
+
+import lombok.ToString;
+
+@ToString
+public class LombokTest {
+	private String first, last;
+}

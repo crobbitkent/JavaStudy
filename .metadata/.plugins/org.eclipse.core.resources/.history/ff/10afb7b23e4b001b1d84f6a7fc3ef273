@@ -1,0 +1,10 @@
+package d8_2;
+
+import lombok.AllArgsConstructor;
+import lombok.ToString;
+
+@ToString
+@AllArgsConstructor
+public class LombokTest {
+	private String first, last;
+}
