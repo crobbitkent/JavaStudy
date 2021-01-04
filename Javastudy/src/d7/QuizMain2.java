@@ -23,12 +23,6 @@ public class QuizMain2 {
 		Quiz q11 = new Quiz("결과 2 : 당신의 피해의식을 인정하세요. 살다보면 좋은 날도 있을겁니다.");
 		Quiz q12 = new Quiz("결과 3 : 그래도 당신은 희망이 있군요. 생활에 지장이 없답니다.");
 		
-		q1.setQuizYes(q2);
-		// 이 함수의 파라미터 타입은?
-		public void setQuizYes(Quiz d1) {
-			this.yes = d1;
-		}
-		
 		q1.yesQuiz = q2;
 		q1.noQuiz = q3;
 		
