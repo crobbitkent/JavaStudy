@@ -1,4 +1,4 @@
-package org.kent.mail;
+
 
 import javax.mail.Message;
 import javax.mail.MessagingException;
@@ -8,8 +8,6 @@ import javax.mail.Transport;
 import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
-
-import org.kent.mail.MailConfig;
 
 // service class
 public class MailSender {
@@ -28,12 +26,12 @@ public class MailSender {
 
 	// 다수에게 메일 보내기
 	public boolean sendMails(MessageDTO[] arr) {
-		boolean result = false;
+		boolean result = true;
 
 		int length = arr.length;
 
 		for (int i = 0; i < length; ++i) {
-			sendMail(arr[i]);
+			result = sendMail(arr[i]);
 		}
 
 		return result;
