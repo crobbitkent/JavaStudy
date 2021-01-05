@@ -20,7 +20,6 @@ public class StudentMailService {
 		
 		for(int i = 0; i < length; ++i) {
 			messageList[i] = new MessageDTO(studentList[i].getEmail(), title, content);
-			System.out.println(messageList[i]);
 		}
 		
 		sender.sendMails(messageList);

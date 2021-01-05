@@ -17,13 +17,14 @@ public class StudentDAO {
 	// 파일을 학생 리스트로 만든다.
 	public Student[] fileToList(File file) throws Exception {
 		scanner = new Scanner(file, "UTF-8");
-		studentList = new Student[studentCount];
 		
-		readAllLine();
+		if (null == studentList) {
+			readAllLine();
+		}
 		
 		int length = studentList.length;
 		
-		// 디버그
+		// 디버깅용
 		for(int i = 0; i < length; ++i) {			
 			System.out.println(studentList[i]);
 		}
@@ -31,9 +32,11 @@ public class StudentDAO {
 		return studentList;
 	}
 	
-	public Student[] readAllLine() {
+	public void readAllLine() {
 		String[] arr = new String[studentCount * 2];
-
+		
+		studentList = new Student[studentCount];
+		
 		int count = 0;
 		
 		for(int i = 0; i < studentCount * 2; i+=2) {
@@ -56,8 +59,6 @@ public class StudentDAO {
 		}
 			
 		studentList = result;
-			
-		return result;
 	}	
 	
 	
