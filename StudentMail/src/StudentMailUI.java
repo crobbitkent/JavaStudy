@@ -14,8 +14,12 @@ public class StudentMailUI {
 		String pw = communication("LOGIN PW :");
 		final MailConfig config = new MailConfig(id, pw);
 		
+		String title = communication("이메일 제목 :");
+		String contents = communication("이메일 내용 :");
+		
 		service.ready(config);
-		service.sendAll(file, "이메일 테스트", "방해해서 죄송합니다.");
+		service.sendAll(file, title, contents);
+		// service.sendAll(file, "이메일 테스트", "방해해서 죄송합니다.");
 	}
 	
 	

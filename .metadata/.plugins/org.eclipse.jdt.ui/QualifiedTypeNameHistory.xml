@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.sun.tools.javac.parser.Scanner"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
-    <fullyQualifiedTypeName name="java.lang.SafeVarargs"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeAll"/>
     <fullyQualifiedTypeName name="org.bmi.service.BMIUser"/>
     <fullyQualifiedTypeName name="org.bmi.ui.BMIUI"/>
@@ -11,9 +10,21 @@
     <fullyQualifiedTypeName name="org.weather.service.WeatherService"/>
     <fullyQualifiedTypeName name="org.weather.domain.WeatherData"/>
     <fullyQualifiedTypeName name="lombok.Data"/>
-    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Workbook"/>
+    <fullyQualifiedTypeName name="org.apache.poi.hssf.usermodel.HSSFWorkbook"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl"/>
+    <fullyQualifiedTypeName name="org.word.domain.Word"/>
+    <fullyQualifiedTypeName name="lombok.experimental.NonFinal"/>
     <fullyQualifiedTypeName name="lombok.ToString"/>
+    <fullyQualifiedTypeName name="lombok.NonNull"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="org.word.ui.WordExamUI"/>
+    <fullyQualifiedTypeName name="java.lang.SafeVarargs"/>
+    <fullyQualifiedTypeName name="org.word.service.WordProvider"/>
+    <fullyQualifiedTypeName name="org.word.domain.WordDAO"/>
     <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="lombok.RequiredArgsConstructor"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
