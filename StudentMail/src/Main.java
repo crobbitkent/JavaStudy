@@ -8,7 +8,7 @@ public class Main {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		File file = new File("C:\\testDB\\emailList.txt");
+		File file = new File("C:\\testDB\\emailListTest.txt");
 		StudentMailService service = new StudentMailService();
 		
 		// 파일과 서비스를 의존성 주입

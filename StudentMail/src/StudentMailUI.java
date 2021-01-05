@@ -1,4 +1,5 @@
 import java.io.File;
+import java.util.Properties;
 import java.util.Scanner;
 
 import lombok.AllArgsConstructor;
@@ -12,7 +13,14 @@ public class StudentMailUI {
 	public void send(File file) throws Exception {
 		String id = communication("LOGIN ID :");
 		String pw = communication("LOGIN PW :");
-		final MailConfig config = new MailConfig(id, pw);
+		
+		Properties prop = new Properties(); 
+		
+		prop.setProperty("id", id);
+		prop.setProperty("pw", pw);
+		
+		
+		final MailConfig config = new MailConfig(prop);
 		
 		String title = communication("이메일 제목 :");
 		String contents = communication("이메일 내용 :");

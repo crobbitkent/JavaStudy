@@ -7,11 +7,11 @@ public class StudentMailService {
 	
 	public void ready(MailConfig config) {
 		sender = new MailSender(config);
-		dao = new StudentDAO();
+	
 	}
 	
 	public void sendAll(File file, String title, String content) throws Exception {
-		
+		dao = new StudentDAO(file);
 		
 		Student[] studentList = dao.fileToList(file);
 		

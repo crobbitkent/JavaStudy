@@ -6,26 +6,22 @@ import lombok.Getter;
 @Getter
 public class StudentDAO {
 	private Student[] studentList;
-	private FileScanner fileScanner;
+	private Scanner scanner;
+	
 	private int studentCount = 30;
+	
+	public StudentDAO(File file)  throws Exception {
+		fileToList(file);	
+	}
 	
 	// 파일을 학생 리스트로 만든다.
 	public Student[] fileToList(File file) throws Exception {
-		fileScanner = new FileScanner(file);
+		scanner = new Scanner(file, "UTF-8");
+		studentList = new Student[studentCount];
 		
-		String[] arr = fileScanner.readAllLine(studentCount * 2);
+		readAllLine();
 		
-		int length = (int)(arr.length * 0.5);
-
-		// 학생 리스트를 생성
-		studentList = new Student[length];
-		
-		for(int i = 0; i < length; ++i) {
-			String name = arr[i * 2];
-			String email = arr[i * 2 + 1];
-			
-			studentList[i] = new Student(name, email);
-		}
+		int length = studentList.length;
 		
 		// 디버그
 		for(int i = 0; i < length; ++i) {			
@@ -34,6 +30,36 @@ public class StudentDAO {
 		
 		return studentList;
 	}
+	
+	public Student[] readAllLine() {
+		String[] arr = new String[studentCount * 2];
+
+		int count = 0;
+		
+		for(int i = 0; i < studentCount * 2; i+=2) {
+			
+				arr[i] = scanner.nextLine();
+				// System.out.println(arr[i]);
+				if(arr[i].isEmpty()) {
+					break;
+				}
+				
+				arr[i+1] = scanner.nextLine();
+				
+				studentList[count++] = new Student(arr[i], arr[i+1]);			
+		}
+	
+		Student[] result = new Student[count];
+		
+		for(int i = 0; i < count; ++i) {
+			result[i] = studentList[i];
+		}
+			
+		studentList = result;
+			
+		return result;
+	}	
+	
 	
 	
 }

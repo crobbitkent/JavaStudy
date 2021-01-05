@@ -2132,3 +2132,132 @@ org.eclipse.core.runtime.CoreException: Launch configuration Main references non
 2021-01-05 16:05:55,087 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\EnglishQuiz\src\main\resources
 2021-01-05 16:05:55,089 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 2021-01-05 16:05:55,094 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\EnglishQuiz\src\test\resources
+2021-01-05 16:49:06,900 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-01-05 16:54:12,660 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 16:54:12,669 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 16:54:12,672 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 16:54:12,681 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 16:54:46,687 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 16:54:46,694 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 16:54:46,696 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 16:54:46,702 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:02:16,201 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:02:16,208 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:02:16,209 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:02:16,215 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:02:20,512 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:02:20,518 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:02:20,519 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:02:20,526 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:03:41,143 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:03:41,149 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:03:41,150 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:03:41,157 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:04:13,605 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:04:13,610 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:04:13,612 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:04:13,619 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:04:23,966 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:04:23,973 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:04:23,974 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:04:23,979 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:04:51,903 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:04:51,909 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:04:51,911 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:04:51,918 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:05:03,043 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:05:03,050 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:05:03,052 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:05:03,057 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:05:04,098 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:05:04,107 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:05:04,108 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:05:04,113 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:11:15,058 [Worker-35: Launching Main (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:11:15,070 [Worker-35: Launching Main (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:11:15,072 [Worker-35: Launching Main (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:11:15,083 [Worker-35: Launching Main (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:14:47,587 [Worker-42: Launching Main (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:14:47,594 [Worker-42: Launching Main (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:14:47,595 [Worker-42: Launching Main (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:14:47,602 [Worker-42: Launching Main (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:15:05,239 [Worker-38: Launching Main (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:15:05,245 [Worker-38: Launching Main (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:15:05,246 [Worker-38: Launching Main (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:15:05,252 [Worker-38: Launching Main (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:17:27,284 [Worker-41: Launching Main (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:17:27,294 [Worker-41: Launching Main (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:17:27,295 [Worker-41: Launching Main (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:17:27,304 [Worker-41: Launching Main (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:19:36,837 [Worker-45: Launching Main (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:19:36,844 [Worker-45: Launching Main (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:19:36,846 [Worker-45: Launching Main (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:19:36,852 [Worker-45: Launching Main (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:19:56,151 [Worker-49: Launching Main (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:19:56,157 [Worker-49: Launching Main (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:19:56,159 [Worker-49: Launching Main (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:19:56,167 [Worker-49: Launching Main (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:21:47,858 [Worker-47: Launching Main (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:21:47,868 [Worker-47: Launching Main (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:21:47,870 [Worker-47: Launching Main (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:21:47,878 [Worker-47: Launching Main (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:22:08,819 [Worker-52: Launching Main (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:22:08,825 [Worker-52: Launching Main (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:22:08,825 [Worker-52: Launching Main (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:22:08,831 [Worker-52: Launching Main (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:25:03,519 [Worker-38: Launching Main (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:25:03,526 [Worker-38: Launching Main (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:25:03,527 [Worker-38: Launching Main (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:25:03,536 [Worker-38: Launching Main (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:27:10,247 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:27:10,256 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:27:10,257 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:27:10,267 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:27:54,981 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:27:54,987 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:27:54,987 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:27:54,993 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:35:20,368 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:35:20,374 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:35:20,375 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:35:20,381 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:35:30,570 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:35:30,575 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:35:30,576 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:35:30,581 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:39:01,612 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:39:01,618 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:39:01,619 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:39:01,624 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:44:59,153 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:44:59,160 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:44:59,161 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:44:59,166 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:45:22,338 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:45:22,343 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:45:22,344 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:45:22,350 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:48:11,238 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:48:11,244 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:48:11,244 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:48:11,250 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:48:50,441 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:48:50,447 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:48:50,448 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:48:50,453 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:48:51,473 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:48:51,479 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:48:51,479 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:48:51,484 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:49:44,317 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:49:44,322 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:49:44,323 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:49:44,328 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:49:47,170 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:49:47,175 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:49:47,176 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:49:47,181 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources
+2021-01-05 17:49:49,399 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:49:49,404 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\main\resources
+2021-01-05 17:49:49,405 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-05 17:49:49,410 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CrobbitKent\eclipse-workspace\StudentMail\src\test\resources

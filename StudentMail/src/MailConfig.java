@@ -7,9 +7,9 @@ public class MailConfig {
     private String mailAddress;
     private String mailPassword;
 
-    public MailConfig(String mailAddress, String mailPassword) {
-        this.mailAddress = mailAddress;
-        this.mailPassword = mailPassword;
+    public MailConfig(Properties prop) {
+        this.mailAddress = prop.getProperty("id");
+        this.mailPassword = prop.getProperty("pw");
     }
 
     public String getMailAddress() {
