@@ -15,14 +15,10 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		try {
-			loadTest();
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		word();
 	}
 	
+	// JUnit이 이상해서 여기서 했습니다.
 	private static void word() {
 		System.out.println("프로그램 시작");
 		
