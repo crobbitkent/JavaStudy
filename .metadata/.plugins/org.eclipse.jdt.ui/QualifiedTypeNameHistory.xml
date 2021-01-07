@@ -37,10 +37,17 @@
     <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
     <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="java.util.Properties"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="org.salary.service.SalaryService"/>
     <fullyQualifiedTypeName name="org.salary.domain.Employee"/>
     <fullyQualifiedTypeName name="org.salary.repository.EmployeeDAO"/>
     <fullyQualifiedTypeName name="org.salary.util.ExcelReader"/>
     <fullyQualifiedTypeName name="org.salary.ui.SalaryUI"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="org.game.ui.MainUI"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="org.game.ui.BaseUI"/>
+    <fullyQualifiedTypeName name="org.game.ui.RSPGameUI"/>
+    <fullyQualifiedTypeName name="org.game.ui.QuizUI"/>
+    <fullyQualifiedTypeName name="bmi3.BmiUI"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
