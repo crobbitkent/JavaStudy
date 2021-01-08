@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.sun.tools.javac.parser.Scanner"/>
-    <fullyQualifiedTypeName name="java.util.Comparator"/>
-    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeAll"/>
     <fullyQualifiedTypeName name="org.bmi.service.BMIUser"/>
     <fullyQualifiedTypeName name="org.bmi.ui.BMIUI"/>
     <fullyQualifiedTypeName name="org.bmi.service.BMIService"/>
@@ -24,8 +21,6 @@
     <fullyQualifiedTypeName name="org.restaurant.repository.RestaurantDAO"/>
     <fullyQualifiedTypeName name="org.restaurant.ui.RestaurantUI"/>
     <fullyQualifiedTypeName name="org.restaurant.domain.Restaurant"/>
-    <fullyQualifiedTypeName name="lombok.RequiredArgsConstructor"/>
-    <fullyQualifiedTypeName name="lombok.NonNull"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="org.salary.domain.RegularEmployee"/>
@@ -33,9 +28,6 @@
     <fullyQualifiedTypeName name="org.salary.domain.PartTimeEmployee"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.CellType"/>
-    <fullyQualifiedTypeName name="lombok.ToString"/>
-    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
-    <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="java.util.Properties"/>
     <fullyQualifiedTypeName name="org.salary.service.SalaryService"/>
     <fullyQualifiedTypeName name="org.salary.domain.Employee"/>
@@ -49,5 +41,23 @@
     <fullyQualifiedTypeName name="org.game.ui.RSPGameUI"/>
     <fullyQualifiedTypeName name="org.game.ui.QuizUI"/>
     <fullyQualifiedTypeName name="bmi3.BmiUI"/>
+    <fullyQualifiedTypeName name="org.mcdonald.domain.Menu"/>
+    <fullyQualifiedTypeName name="org.mcdonald.service.MenuService"/>
+    <fullyQualifiedTypeName name="org.mcdonald.domain.Order"/>
+    <fullyQualifiedTypeName name="org.mcdonald.order.OrderUI"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="org.mcdonald.util.BaseUI"/>
+    <fullyQualifiedTypeName name="lombok.NonNull"/>
+    <fullyQualifiedTypeName name="org.mcdonald.menu.MenuUI"/>
+    <fullyQualifiedTypeName name="lombok.RequiredArgsConstructor"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.mcdonald.order.OrderItem"/>
+    <fullyQualifiedTypeName name="org.mcdonald.menu.MenuService"/>
+    <fullyQualifiedTypeName name="lombok.ToString"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="org.mcdonald.menu.SideMenu"/>
+    <fullyQualifiedTypeName name="org.mcdonald.menu.Menu"/>
+    <fullyQualifiedTypeName name="org.mcdonald.menu.BurgerMenu"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
 </qualifiedTypeNameHistroy>

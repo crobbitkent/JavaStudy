@@ -21,7 +21,7 @@
 		<item key="org.eclipse.jdt.ui.typecomment.deprecated" value="true"/>
 	</section>
 	<section name="NewClassWizardPage">
-		<item key="create_constructor" value="true"/>
+		<item key="create_constructor" value="false"/>
 		<item key="create_unimplemented" value="true"/>
 	</section>
 	<section name="NewPackageWizardPage">
@@ -95,7 +95,7 @@
 		<item key="OmitCallToSuper" value="false"/>
 	</section>
 	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
-		<item key="DIALOG_X_ORIGIN" value="703"/>
+		<item key="DIALOG_X_ORIGIN" value="615"/>
 		<item key="DIALOG_Y_ORIGIN" value="76"/>
 		<item key="DIALOG_WIDTH" value="531"/>
 		<item key="DIALOG_HEIGHT" value="678"/>
