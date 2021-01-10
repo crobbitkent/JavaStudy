@@ -6,30 +6,44 @@ import lombok.Setter;
 import lombok.ToString;
 
 @ToString
-@Getter
-public class Menu {
+public abstract class Menu implements IUpgradable {
 	//=========================FIELD===========================//
+	@Getter
 	protected String name;
+	@Getter
 	protected double price;
+	@Getter
 	protected String category;
-	@Setter
-	private UpgradableStrategy upgradableStrategy;
+	@Getter
+	protected Grade grade;
+	@Getter
+	protected Menu upgradeMenu;
 	
 	
-	public Menu(String name, double price, String category) {
+	public Menu(String name, double price, String category, Grade grade) {
 		super();
 		this.name = name;
 		this.price = price;
 		this.category = category;
+		this.grade = grade;
 	}
 	
-	
-	
-	//=========================METHOD==========================//
-	public void upgrade() {
-		upgradableStrategy.upgrade();
+	public void copy(Menu menu) {
+		this.name = menu.name;
+		this.price = menu.price;
+		this.category = menu.category;
 	}
 	
+	public abstract String getTotalName();
+	
+	@Override
+	public void setUpgradeMenu(Menu menu) {
+		upgradeMenu = menu;
+	}
+	
+	public Menu getUpgradeMenu() {
+		return upgradeMenu;
+	}
 	
 	
 

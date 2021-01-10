@@ -2,6 +2,7 @@ package org.mcdonald.order;
 
 import java.util.ArrayList;
 
+import org.mcdonald.menu.Grade;
 import org.mcdonald.menu.Menu;
 import org.mcdonald.menu.MenuService;
 import org.mcdonald.util.BaseUI;
@@ -28,7 +29,7 @@ public class OrderUI extends BaseUI {
 			// 1. 어떤 메뉴를 선택?
 			int select = inputInt("메뉴 번호를 입력하세요.");
 			
-			Menu menu = menuService.getMenuAt(select-1);
+			Menu menu = menuService.getMenuAt(select);
 			
 			// 1-05. 메뉴가 있었는지 확인
 			
@@ -36,11 +37,13 @@ public class OrderUI extends BaseUI {
 			// 1-1. 사이드 메뉴라면 업그레이드 가능!
 			// 버거가 아닌 카테고리는 사이드 메뉴
 			// 업그레이드가 가능하다.
-			if("버거" != menu.getCategory()) {
+			Menu upMenu = menu.getUpgradeMenu();
+			
+			if(null != upMenu) {
 				String isUpgrade = inputString("업그레이드 하시겠습니까?");
 				
 				if(false == isUpgrade.equals("n")) {
-					menu.upgrade();
+					menu = upMenu;
 					// print("업그레이드 되었습니다. (추가금액 : " + extra + ")" );
 				}
 			}
@@ -49,7 +52,7 @@ public class OrderUI extends BaseUI {
 			int qty = inputInt("수량을 입력하세요.");
 			
 			// OrderItem 객체 생성, list에 추가
-			OrderItem item = new OrderItem(menuService.getMenuAt(select-1), qty);
+			OrderItem item = new OrderItem(menu, qty);
 			
 			// 중복 체크 후 List에 넣기
 			checkSameItem(item, items);		
@@ -62,9 +65,7 @@ public class OrderUI extends BaseUI {
 				break;
 			}
 			
-		} // 루프 끝
-
-		
+		} // 루프 끝		
 		
 		// Order를 생성
 		Order order = new Order(items);
@@ -75,6 +76,12 @@ public class OrderUI extends BaseUI {
 	
 	private void checkSameItem(OrderItem item, ArrayList<OrderItem> items) {
 		int size = items.size();
+		
+		if(0 == size) {
+			items.add(item);	
+			return;
+		}
+		
 		for(int i = 0; i > size; ++i) {
 			String name1 = item.getMenu().getName();
 			String name2 = items.get(i).getMenu().getName();
@@ -86,9 +93,7 @@ public class OrderUI extends BaseUI {
 			} else {
 				items.add(item);	
 			}
-		}
-		
-		
+		}		
 	}
 	
 	
@@ -101,7 +106,7 @@ public class OrderUI extends BaseUI {
 		print("================ 주문 내역 ==================");
 		
 		for(OrderItem item : order.getOrderItems()) {
-			print( item.getMenu().getName() + "   " + item.getQty() + "   " + item.getPrice() );
+			print( item.getMenu().getTotalName() + "   " + item.getQty() + "   " + item.getPrice() );
 		}
 		
 		print("------------------------------------------");

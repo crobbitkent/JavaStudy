@@ -1,5 +1,8 @@
 package org.mcdonald.menu;
 
+import java.util.ArrayList;
+import java.util.Map;
+
 import org.mcdonald.util.BaseUI;
 
 import lombok.AllArgsConstructor;
@@ -13,13 +16,22 @@ public class MenuUI extends BaseUI {
 	public void showAllMenu() {
 		print("==================== MENU ======================");
 	
-		Menu[] arr = service.getAllMenu();
-		int length = arr.length;
+		Map<String, Menu> menuMap = service.getAllMenu();
+		int length = menuMap.size();
 		
-		int i = 0;
-		for(Menu menu : arr) {
-			print("[" + ++i + "] " + menu.getName() + " : " + (int)menu.getPrice() + "원");
+		
+		for(int i = 0; i < length; )
+		{
+			Menu menu = menuMap.get(++i + "");
+			print("[" + i + "] " + menu.getTotalName() + " : " + (int)menu.getPrice() + "원");
+			
+			// 디버그
+//			if(null != menu.getUpgradeMenu())
+//				{
+//					print("[" + i + "] " + menu.getUpgradeMenu().getTotalName());
+//				}
 		}
+
 		
 		print("================================================");
 	}
