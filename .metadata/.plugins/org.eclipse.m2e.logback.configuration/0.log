@@ -4982,3 +4982,68 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.po
 2021-01-10 22:57:20,333 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\NewGit\javaStudy\mcdonaldKiosk\src\main\resources
 2021-01-10 22:57:20,333 [Worker-158: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 2021-01-10 22:57:20,338 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\NewGit\javaStudy\mcdonaldKiosk\src\test\resources
+2021-01-11 09:38:43,862 [Worker-19: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-01-11 09:38:44,174 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: EnglishQuiz:EnglishQuiz:0.0.1-SNAPSHOT @ C:\Users\bitcamp\Git\newStudy\EnglishQuiz\pom.xml.
+2021-01-11 09:38:44,174 [Worker-12: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: d9:d9:0.0.1-SNAPSHOT @ C:\Users\bitcamp\Git\newStudy\d9\pom.xml.
+2021-01-11 09:38:46,392 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 09:38:46,399 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\EnglishQuiz\src\main\resources
+2021-01-11 09:38:46,400 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 09:38:46,406 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\EnglishQuiz\src\test\resources
+2021-01-11 09:38:46,811 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SalaryProgram:SalaryProgram:0.0.1-SNAPSHOT @ C:\Users\bitcamp\Git\newStudy\SalaryProgram\pom.xml.
+2021-01-11 09:38:46,945 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 09:38:46,951 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\SalaryProgram\src\main\resources
+2021-01-11 09:38:46,953 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 09:38:46,960 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\SalaryProgram\src\test\resources
+2021-01-11 09:38:47,294 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: StudentMail:StudentMail:0.0.1-SNAPSHOT @ C:\Users\bitcamp\Git\newStudy\StudentMail\pom.xml.
+2021-01-11 09:38:47,342 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 09:38:47,348 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\StudentMail\src\main\resources
+2021-01-11 09:38:47,349 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 09:38:47,356 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\StudentMail\src\test\resources
+2021-01-11 09:38:47,542 [Worker-11: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: d9:d9:0.0.1-SNAPSHOT @ C:\Users\bitcamp\Git\newStudy\d9\pom.xml.
+2021-01-11 09:38:48,012 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 09:38:48,021 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\d9\src\main\resources
+2021-01-11 09:38:48,023 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 09:38:48,037 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\d9\src\test\resources
+2021-01-11 09:38:48,365 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: mainEx:mainEx:0.0.1-SNAPSHOT @ C:\Users\bitcamp\Git\newStudy\mailEx\pom.xml.
+2021-01-11 09:38:48,401 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 09:38:48,407 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\mailEx\src\main\resources
+2021-01-11 09:38:48,408 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 09:38:48,414 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\mailEx\src\test\resources
+2021-01-11 09:38:48,505 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: mcdonald:mcdonald:0.0.1-SNAPSHOT @ C:\Users\bitcamp\Git\newStudy\mcdonaldKiosk\pom.xml.
+2021-01-11 09:38:48,591 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 09:38:48,596 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\mcdonaldKiosk\src\main\resources
+2021-01-11 09:38:48,597 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 09:38:48,602 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\mcdonaldKiosk\src\test\resources
+2021-01-11 09:38:48,731 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: restaurantSearcher:restaurantSearcher:0.0.1-SNAPSHOT @ C:\Users\bitcamp\Git\newStudy\restaurantSearcher\pom.xml.
+2021-01-11 09:38:48,768 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 09:38:48,773 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\restaurantSearcher\src\main\resources
+2021-01-11 09:38:48,774 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 09:38:48,779 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\restaurantSearcher\src\test\resources
+2021-01-11 12:46:55,665 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 12:46:55,671 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\EnglishQuiz\src\main\resources
+2021-01-11 12:46:55,672 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 12:46:55,677 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\EnglishQuiz\src\test\resources
+2021-01-11 12:46:55,824 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 12:46:55,830 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\SalaryProgram\src\main\resources
+2021-01-11 12:46:55,831 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 12:46:55,836 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\SalaryProgram\src\test\resources
+2021-01-11 12:46:55,963 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 12:46:55,972 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\StudentMail\src\main\resources
+2021-01-11 12:46:55,972 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 12:46:55,979 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\StudentMail\src\test\resources
+2021-01-11 12:46:56,222 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 12:46:56,227 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\d9\src\main\resources
+2021-01-11 12:46:56,228 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 12:46:56,234 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\d9\src\test\resources
+2021-01-11 12:46:56,428 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 12:46:56,435 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\mailEx\src\main\resources
+2021-01-11 12:46:56,436 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 12:46:56,442 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\mailEx\src\test\resources
+2021-01-11 12:46:56,505 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 12:46:56,512 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\mcdonaldKiosk\src\main\resources
+2021-01-11 12:46:56,512 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 12:46:56,519 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\mcdonaldKiosk\src\test\resources
+2021-01-11 12:46:56,581 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 12:46:56,587 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\restaurantSearcher\src\main\resources
+2021-01-11 12:46:56,587 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-11 12:46:56,592 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bitcamp\Git\newStudy\restaurantSearcher\src\test\resources

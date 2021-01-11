@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.weather.service.WeatherService"/>
-    <fullyQualifiedTypeName name="org.weather.domain.WeatherData"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
-    <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Workbook"/>
-    <fullyQualifiedTypeName name="org.apache.poi.hssf.usermodel.HSSFWorkbook"/>
-    <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.impl.dv.xs.XSSimpleTypeDecl"/>
     <fullyQualifiedTypeName name="org.word.domain.Word"/>
     <fullyQualifiedTypeName name="lombok.experimental.NonFinal"/>
     <fullyQualifiedTypeName name="org.word.ui.WordExamUI"/>
     <fullyQualifiedTypeName name="java.lang.SafeVarargs"/>
     <fullyQualifiedTypeName name="org.word.service.WordProvider"/>
     <fullyQualifiedTypeName name="org.word.domain.WordDAO"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="org.restaurant.service.RestaurantService"/>
     <fullyQualifiedTypeName name="org.restaurant.repository.RestaurantDAO"/>
     <fullyQualifiedTypeName name="org.restaurant.ui.RestaurantUI"/>
     <fullyQualifiedTypeName name="org.restaurant.domain.Restaurant"/>
-    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="org.salary.domain.RegularEmployee"/>
     <fullyQualifiedTypeName name="org.salary.domain.TempEmployee"/>
@@ -39,7 +31,6 @@
     <fullyQualifiedTypeName name="org.mcdonald.service.MenuService"/>
     <fullyQualifiedTypeName name="org.mcdonald.domain.Order"/>
     <fullyQualifiedTypeName name="org.mcdonald.order.OrderUI"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
     <fullyQualifiedTypeName name="org.mcdonald.util.BaseUI"/>
     <fullyQualifiedTypeName name="lombok.NonNull"/>
@@ -55,9 +46,18 @@
     <fullyQualifiedTypeName name="org.mcdonald.db.DbManager"/>
     <fullyQualifiedTypeName name="org.mcdonald.util.ExcelReader"/>
     <fullyQualifiedTypeName name="lombok.Getter"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="org.mcdonald.menu.MenuDAO"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="org.mcdonald.menu.Grade"/>
+    <fullyQualifiedTypeName name="java.net.URL"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.io.InputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.OutputStream"/>
 </qualifiedTypeNameHistroy>
