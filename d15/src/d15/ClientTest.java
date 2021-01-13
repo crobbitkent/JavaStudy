@@ -5,12 +5,12 @@ import java.io.OutputStream;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class ClIentTest {
+public class ClientTest {
 	
 	
 	public static void main(String[] args) throws Exception {
 	
-		Socket socket = new Socket("192.168.0.108", 5555);
+		Socket socket = new Socket("192.168.0.108", 8081);
 		// Socket socket = new Socket("192.168.0.247", 5555);
 		// Socket socket = new Socket("192.168.0.101", 5555);
 		

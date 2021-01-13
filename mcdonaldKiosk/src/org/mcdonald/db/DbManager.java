@@ -18,12 +18,12 @@ public class DbManager {
 		
 		try(Connection con = 
 				DriverManager.getConnection(
-						"jdbc:oracle:thin:@localhost:1521:XE",
-						"system",
-						"alsrb5779")){
+						"jdbc:oracle:thin:@localhost:9090:XE",
+						"hr",
+						"hr")){
 			System.out.println(con);
 		} catch (Exception e) {
-			System.out.println("¿¬°á ½ÇÆÐ");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 		}
 		
 	}
