@@ -41,6 +41,8 @@ public class SimpleWebServer {
 						// 보낸다. (쓴다)
 						String[] arr = command.split(" ");
 						
+						// http message header (GET /index.html HTTP/1.1)
+						// 여기서 " "로 split한 다음에 index.html 만 뺀다.
 						File file = new File("C:\\testDB" + arr[1]);
 						
 						long length = file.length();
@@ -75,11 +77,7 @@ public class SimpleWebServer {
 							
 							sout.write(buffer, 0, count);
 						}
-						
-						
-						
-						
-						
+
 					}
 					
 					// stream에 남아 있는 데이터를 밀어준다. 쓰는게 좋다

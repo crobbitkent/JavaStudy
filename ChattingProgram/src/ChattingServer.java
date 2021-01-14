@@ -18,9 +18,9 @@ public class ChattingServer {
 			
 			while (true) {
 				try (Socket socket = server.accept();
-						InputStream sin = socket.getInputStream();
-						OutputStream sout = socket.getOutputStream();
-						Scanner socketScanner = new Scanner(sin);) {
+					 InputStream sin = socket.getInputStream();
+					 OutputStream sout = socket.getOutputStream();
+					 Scanner socketScanner = new Scanner(sin);) {
 
 					// 새로운 클래스(sin, sout); 이렇게 만들면 좋다.
 					// 이부분만 추상화로 빼면 좋을 것 같다.

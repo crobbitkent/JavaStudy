@@ -16,8 +16,6 @@ public class ChattingClient {
 		ipList.add(new IpData("geon", "192.168.0.101"));
 		ipList.add(new IpData("dongho", "192.168.0.9"));
 
-
-
 		keyScanner = new Scanner(System.in);
 
 		System.out.println("보내고 싶은 메시지를 입력하세요.");
@@ -28,17 +26,20 @@ public class ChattingClient {
 		ArrayList<Socket> socketList = new ArrayList<Socket>();
 		
 		int length = ipList.size();
-		
-		for(int i = 0; i < length; ++i) 
-		{
-			IpData tempData = ipList.get(i);
-			String ip = tempData.ip;
-			int port = Integer.parseInt(tempData.port);
-			Socket tempSocket = new Socket(ip, port);
-			socketList.add(tempSocket);
-		}
+			
+		Scanner scanner = null;
+		InputStream in;
 		
 		try {
+			
+			for(int i = 0; i < length; ++i) {
+				IpData tempData = ipList.get(i);
+				String ip = tempData.ip;
+				int port = Integer.parseInt(tempData.port);
+				Socket tempSocket = new Socket(ip, port);
+				socketList.add(tempSocket);
+			}
+			
 			// 보내는게 우선					
 			for(int i = 0; i < socketList.size(); ++i){
 				Socket temp = socketList.get(i);
@@ -49,19 +50,26 @@ public class ChattingClient {
 			InputStream in1 = socketList.get(0).getInputStream();	
 			
 			// 받는 건 나중
-			Scanner scanner = new Scanner(in1);
-						
-			for(int i = 0; i < socketList.size(); ++i){
-				socketList.get(i).close();				
-			}
-	
+			scanner = new Scanner(in1);
+
 			System.out.println("=============================");
 			System.out.println(scanner.nextLine());
 			System.out.println("=============================");
 			
 		} catch (Exception e) {
 			System.out.println("Exception");
+		} finally {
+			for(int i = 0; i < socketList.size(); ++i){
+				Socket temp = socketList.get(i);
+				OutputStream out = temp.getOutputStream();
+				
+				if(null != temp) { try{temp.close();} catch(Exception e) {} }
+				if(null != out) { try{out.close();} catch(Exception e) {} }
+			}
+			
+			if(null != scanner) { try{scanner.close();} catch(Exception e) {} }
 		}
+		
 
 	}
 
