@@ -3,7 +3,7 @@ import java.util.Scanner;
 import org.mcdonald.db.DbManager;
 import org.mcdonald.menu.BurgerMenu;
 import org.mcdonald.menu.Menu;
-import org.mcdonald.menu.MenuDAO;
+import org.mcdonald.menu.MenuFileDAO;
 import org.mcdonald.menu.MenuService;
 import org.mcdonald.menu.MenuUI;
 import org.mcdonald.menu.SideMenu;
@@ -15,7 +15,7 @@ public class Main {
 		System.out.println("프로그램이 시작되었습니다.");
 		
 		// dao 생성
-		MenuDAO dao = new MenuDAO("C:\\testDB\\mcdonaldMenu.xlsx");
+		MenuFileDAO dao = new MenuFileDAO("C:\\testDB\\mcdonaldMenu.xlsx");
 		
 		// 메뉴 서비스
 

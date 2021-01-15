@@ -14,6 +14,10 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\bitcamp\Git\newStudy\kioskServer"/>
+			<item value="C:\Users\bitcamp\Git\newStudy\kiosk"/>
+			<item value="C:\Users\bitcamp\Downloads\kioskServer\kioskServer"/>
+			<item value="C:\Users\bitcamp\Downloads\kiosk\kiosk"/>
 			<item value="C:\Users\bitcamp\Downloads\kioskNetwork"/>
 			<item value="C:\Users\bitcamp\Git\newStudy\d17"/>
 			<item value="C:\Users\bitcamp\Git\newStudy\d17\src\kiosk"/>

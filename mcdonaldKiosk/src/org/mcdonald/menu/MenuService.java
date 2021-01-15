@@ -9,7 +9,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class MenuService {
 	@NonNull
-	private MenuDAO dao;
+	private MenuFileDAO dao;
 
 	
 	// 모든 메뉴를 반환
