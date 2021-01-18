@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
+    <libraryInfo home="/home/crobbitkent" version="15.0.1"/>
+    <libraryInfo home="/home/crobbitkent/Desktop/jdk-15.0.1" version="15.0.1"/>
+    <libraryInfo home="/usr" version="15.0.1"/>
+    <libraryInfo home="/usr/lib/java/jdk-15.0.1" version="15.0.1"/>
     <libraryInfo home="C:\Program Files\Java\jdk-15.0.1" version="15.0.1"/>
+    <libraryInfo home="/usr/lib/jvm/java-11-openjdk-amd64" version="11.0.9.1"/>
+    <libraryInfo home="/" version="15.0.1"/>
 </libraryInfos>

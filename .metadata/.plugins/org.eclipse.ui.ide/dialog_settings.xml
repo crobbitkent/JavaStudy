@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="ChooseWorkspaceDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="659"/>
-		<item key="DIALOG_Y_ORIGIN" value="341"/>
+		<item key="DIALOG_X_ORIGIN" value="680"/>
+		<item key="DIALOG_Y_ORIGIN" value="395"/>
 	</section>
 	<section name="WORKBENCH_SETTINGS">
 		<list key="ENABLED_TRANSFERS">
@@ -14,6 +14,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/home/crobbitkent/eclipse-workspace/git/javaStudy"/>
 			<item value="C:\Users\bitcamp\Git\newStudy\kioskServer"/>
 			<item value="C:\Users\bitcamp\Git\newStudy\kiosk"/>
 			<item value="C:\Users\bitcamp\Downloads\kioskServer\kioskServer"/>
